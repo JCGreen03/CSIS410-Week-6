@@ -1,0 +1,63 @@
+body{
+    background-color: beige;
+    min-height: auto;
+    margin-bottom: 150px;
+}
+
+.navbar {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    list-style-type: none;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a.link{
+    color:white;
+}
+
+
+a.link:hover{
+    color:rgb(0, 102, 255);
+}
+
+.bottombar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color:black;
+    color: white;
+    overflow:hidden;
+    width:100%;
+}
+
+.employeebio{
+    height: 30%;
+    width: 30%;
+    margin: 15px;
+}
+
+.heirarchybox{
+    height: 40%;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border:3px solid black;
+}
+
+.orgchart{
+    list-style:none;
+}
